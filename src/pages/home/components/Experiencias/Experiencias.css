@@ -1,0 +1,10 @@
+/* NUESTRAS EXPERIENCIAS */
+.efecto-hover {
+  transition: transform 0.3s ease;
+}
+.efecto-hover:hover {
+  transform: scale(1.025);
+  filter: saturate(130%);
+  box-shadow: 1px 1px 1px 1px rgb(251, 176, 59);
+  padding: 2px;
+}

@@ -1,0 +1,10 @@
+.slider-wrapper {
+  width: 100%;
+}
+
+.slider-wrapper .slider-img {
+  background-size: cover;
+  height: 50vh;
+  background-position: center;
+  filter: saturate(130%);
+}

@@ -1,0 +1,17 @@
+.bg-alert{
+    background: linear-gradient(90deg, #f21826, #a3071d);
+    color: var(--white-color);
+    border-radius: 0; /* Quitar bordes redondeados */
+    padding: 4px 30px 4px 30px; /* Ajustar el valor de padding según tu preferencia */
+}
+
+.text-alerta{
+    font-family: var(--tipo-letra);
+    text-align: start;
+}
+/* .close{
+    background: transparent;
+    border: none;
+    color: var(--white-color);
+} */
+

@@ -1,0 +1,35 @@
+/* Programas de perfil, cursos, programas de oficio */
+.d-programas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.header-container {
+  position: relative;
+  overflow: hidden;
+  padding: 10px;
+  flex: 1 0 33.3% !important;
+  margin-bottom: 20px;
+  height: 200px !important;
+}
+
+.header-image {
+  height: 100%;
+  width: 100%;
+  filter: brightness(50%);
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.header-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--white-color);
+  font-size: 20px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgb(251, 176, 59);
+  text-transform: uppercase;
+}

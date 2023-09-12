@@ -1,0 +1,39 @@
+.responsive-bann {
+  width: 99%;
+  margin: 5rem auto;
+  background-image: linear-gradient(to bottom right, #f11826, #a4071d);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.more-link {
+  background-color: rgba(255, 255, 255, 0.35);
+  display: inline-block;
+  padding: 12px 18px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  border: none !important;
+  position: relative;
+  border-radius: 30px;
+  -webkit-transition: 0.1s all ease-in-out;
+  -moz-transition: 0.1s all ease-in-out;
+  -o-transition: 0.1s all ease-in-out;
+  transition: 0.1s all ease-in-out;
+  width: 100%;
+  max-width: 210px;
+  margin: 0 auto;
+  font-stretch: 100%;
+}
+
+.more-link:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.max-size-image {
+  max-width: 50%;
+  max-height: 100%; 
+}

@@ -1,0 +1,100 @@
+.containe {
+  margin-left: 2.5rem;
+  padding: 20px;
+  border: 3px solid #f4f4f4;
+  line-height: 1.6;
+}
+
+.title-form {
+  color: #f21826;
+  font-size: 17.6px;
+  font-weight: bold;
+  text-decoration: none solid rgb(255, 255, 255);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  font-family: var(--tipo-letra);
+  font-weight: bold;
+  color: #333;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  color: #333;
+  transition: all 0.3s ease;
+  background-color: #ffffff;
+
+}
+
+textarea {
+  font-family: var(--tipo-letra);
+  resize: vertical;
+}
+
+.form-check {
+  display: flex;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.form-check input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.form-check label {
+  font-family: var(--tipo-letra);
+  font-weight: normal;
+}
+
+.efecto-politicas:hover {
+  color: #aeaeae;
+  text-decoration: underline;
+}
+
+/* Estilos para el botón */
+.button {
+  display: inline-block;
+  width: 100%;
+  padding: 12px 20px;
+  position: relative;
+  color: #fff;
+  font-weight: 500;
+  text-transform: uppercase;
+  background: linear-gradient(90deg, #f21826 0, #a3071d);
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: var(--tipo-letra);
+  border-radius: 4px;
+}
+
+/* Estilos para el texto del botón en el estado hover */
+.button:hover:before {
+  opacity: 0;
+}
+
+.dark-mode-content .title-form {
+  color: #fff;
+}
+
+.dark-mode-content label {
+  color: #aeaeae;
+}
+
+/* Add media query for smaller screens (e.g., tablets and mobiles) */
+@media (max-width: 480px) {
+  .containe {
+      margin-left: 0;
+  }
+}
